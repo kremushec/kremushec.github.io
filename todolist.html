@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="todo_styles.css" type="text/css">
+        <script defer src="todo.js"></script>
+        <title>To Do</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+              <h1>TO-DO LIST</h1>
+            </div>
+            <div class="form">
+              <div class="field">
+                <input type="text" id="taskInput" placeholder="введите задачу">
+                <button id="knopka" onclick="addTask()">Добавить</button>
+              </div class="desc">
+              <input type="text" id="taskDescription" placeholder="заметка">
+            </div>
+            <div class="tasks" id="taskList"></div>
+          </div>
+        </div>
+    </body>
+</html>
